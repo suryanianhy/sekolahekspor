@@ -62,7 +62,7 @@
             $equal          = $a == $b ? 'True' : 'False'; 
             $identical      = $a === $b ? 'True' : 'False'; 
             $not_eq         = $a != $b ? 'True' : 'False'; 
-            $not_identical  = $a != $b ? 'True' : 'False'; 
+            $not_identical  = $a !== $b ? 'True' : 'False'; 
             $increment_a    = $a++; 
             $decrement_a    = $a--; 
 
